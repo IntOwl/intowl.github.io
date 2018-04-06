@@ -8,7 +8,7 @@
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     line-height: 575px;
     background-image:url('https://images.unsplash.com/photo-1506784983877-45594efa4cbe?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ab3ab3da37d9c3cff72666376c089e3c&w=1000&q=80');
-    background-size: 2000px 1336px;
+    background-size: 100%;
 }
 p {
 	margin: auto;
