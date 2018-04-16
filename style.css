@@ -48,7 +48,7 @@ p {
 }
 /* Change the color of links on hover */
 .topnav a:hover {
-	color: cccccc;
+	color: white;
 	font-size: 18px;
 }
 /* Add a color to the active/current link */
