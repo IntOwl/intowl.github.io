@@ -11,14 +11,6 @@
     background-image:url('photo-1506784983877-45594efa4cbe.jpg');
     background-size: 100%;
 }
-.antigua {
-	 background-image:url(30708625_809735665885354_6960649197917831168_n.jpg); 
-	background-repeat: no-repeat; 
-	background-size: cover; 
-	text-align: center; 
-	filter: blur(10px);
-	line-height: 575px;
-}
 p {
 	margin: auto;
 	padding: 20px;
