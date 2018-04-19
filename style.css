@@ -20,7 +20,7 @@ p {
 }
 .topnav{
     padding: 10px;
-    background-color: #bbe3ea;
+    background-color: mistyrose;
     border-bottom: 2px solid
     border-bottom-width: 2px;
     border-bottom-style: solid;
@@ -39,7 +39,7 @@ p {
 }
 
 .body {
-	background-color: mistyrose;
+	background-color: #F5F5DC;
 	margin: auto;
 	padding: 10px;
 	height: 50%;
