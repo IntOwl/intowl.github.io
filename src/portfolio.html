@@ -1,33 +1,106 @@
-<html>
-<head>
-	<link rel = "stylesheet" type = "text/css" href = "style.css">
-	<title> portfolio: michelle lin </title>
-</head>
-<body>
-	<h1 style = "background-image:url(freddy-castro-133326-unsplash.jpg); 
-	background-repeat: no-repeat; 
-	background-size: cover; 
-	text-align: center; 
-	line-height: 575px;"> 
-	     <span class = header> <img class = img-circle src = 8300324766928414001.jpg height = 200px; width = 200px;> </span>
-	    <span style = "background-color: rgba(255,255,255,0.5)"> michelle lin </span>
-	</h1>
-	<nav class = "topnav"> 
-	<a href = "index.html" style = "color: black; text-decoration: none;"> home </a>
-	<a href = "Reformatted Resume.pdf" style = "color: black; text-decoration: none;"> resume </a>
-	<a class = "active" href = portfolio.html style = "color: black; text-decoration: none;"> portfolio </a>
-	<a href = projects.html style = "color: black; text-decoration: none;"> projects </a>
-	<a href = contact.html style = "color: black; text-decoration: none;"> contact </a> </nav>
-	<div class = "body" id = "wrapper">
-	    <a href = portfolio.pdf style = "text-decoration: none;" target = "_blank"> 
-	        <div class = "button"> portfolio </div>
-	   </a>
-	</div>
-	<div id = "footer">
-	    created by Michelle Lin. photos are not currently by Michelle Lin, but they hopefully will be soon.
-	</div>
-	<div id = "bottom">
-	    there's no copyright here
-	</div>
-</body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Michelle Lin</title>
+  </head>
+  <body>
+        <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-auto">
+                      <a class="navbar-brand" href="IMG_20190603_140047_519.jpg">
+                          <img class="fluid" src="IMG_20190603_140047_519.jpg" width="110" height="110" object-fit="cover">
+                      </a>
+                  </div>
+                  <div class="col">
+                    <h1 class="text-center">Michelle Lin</h1>
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                      
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                    
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                          <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="resume.html">Resume</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" href="#">Portfolio <span class="sr-only">(current)</span></a>
+                          <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </nav>
+                    <div class="accordion" id="accordionExample">
+                        <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                ICTD Data Analysis
+                            </button>
+                            </h2>
+                        </div>
+                    
+                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                            <div class="card-body">
+                            Analyzed data coming back from a remote cellular network the ICTD Lab at the University of Washington deployed in a rural area with no other access to the Internet. 
+                            Discovered many interesting parallels in Internet usage in rural vs. urban areas, as well as many clear differences. See more at
+                                <a href="intowl.github.io/ICTD-Data-Analysis">
+                                    intowl.github.io/ICTD-Data-Analysis
+                                </a>
+                                .
+                            </div>
+                        </div>
+                        </div>
+                        <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Predictive Analytics for Credit Fraud
+                            </button>
+                            </h2>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                            <div class="card-body">
+                            Created a Markov model based on transaction data (purchases/user transfers) from a remote cellular network the ICTD Lab at the University of Washington deployed in a rural area.
+                            The model was able to generate strings of transactions, as well as predict when a transaction might be fraudulent.
+                            </div>
+                        </div>
+                        </div>
+                        <div class="card">
+                        <div class="card-header" id="headingThree">
+                            <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Microsoft Internship
+                            </button>
+                            </h2>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                            <div class="card-body">
+                            Designed and developed a prototype for a performance manager for Office Add-ins using TypeScript React and Office Fabric UI. Helped the Fabric UI Team at Microsoft discover and fix bugs,
+                            and presented the final version of this project to a team of experienced software engineers at Microsoft.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
 </html>
